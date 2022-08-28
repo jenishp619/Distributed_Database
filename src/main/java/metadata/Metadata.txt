@@ -1,0 +1,13 @@
+g|g1|varchar
+g|g2|varchar
+g|g3|varchar
+j|j1|varchar
+j|j2|varchar
+j|j3|varchar
+o|o1|varchar
+o|o2|varchar
+o|o3|varchar
+y|y1|varchar
+y|y2|varchar
+y|y3|varchar
+y|y4|varchar

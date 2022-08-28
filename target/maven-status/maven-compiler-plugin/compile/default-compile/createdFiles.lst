@@ -1,0 +1,17 @@
+crud\UpdateColumn.class
+crud\DataBase.class
+crud\Path.class
+Analytics\Analytics.class
+crud\SelectFromTable.class
+crud\UseDatabase.class
+Logs\LogWriter.class
+crud\CreateDatabase.class
+erd\Erd.class
+crud\Table.class
+Main.class
+register\Registration.class
+crud\CreateTable.class
+export\SQLdump.class
+crud\DeleteRow.class
+crud\InsertIntoTable.class
+crud\Operations.class

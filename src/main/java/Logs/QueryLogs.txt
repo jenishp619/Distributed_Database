@@ -1,0 +1,178 @@
+  Operation :USE use courses
+  Operation :SELECT select * from j
+  Operation :INSERT INTO insert into j (j1,j2,j3) values (1,2,3)
+  Operation :CREATE SCHEMA create schema testschema
+  Operation :USE use testschema
+  Operation :CREATE TABLE create table testtable (tt1,tt2,tt3)
+2022/04/09 15:03:27 aayushi Operation :USE use courses
+2022/04/09 15:03:27 aayushi Operation :SELECT select * from j
+2022/04/09 15:03:27 aayushi Operation :UPDATE update j set j1 = 1000 where j1 = 2
+2022/04/09 15:03:27 aayushi Operation :DELETE delete from j where j1 = 1
+2022/04/09 15:03:27 aayushi Operation :SELECT select j2 from j where j1 = '1'
+2022/04/09 15:03:27 aayushi Operation :USE use courses
+2022/04/09 15:32:40 subash Operation :USE use courses
+2022/04/09 15:32:40 subash Operation :USE use school
+2022/04/09 15:32:40 subash Operation :SELECT select * from campus
+2022/04/09 15:41:42 subash Operation :USE use schema university
+2022/04/09 15:41:42 subash Operation :SELECT select * from students
+2022/04/09 15:41:42 subash Operation :SELECT select * from student
+2022/04/09 16:53:01 subash Operation :CREATE SCHEMA : create schema test, Status :Failed Query
+2022/04/09 16:57:19 subash Operation :CREATE SCHEMA : create schema test, Status :Failed Query
+2022/04/09 16:57:19 subash Operation :CREATE SCHEMA : create schema newdb, Status :Valid query
+2022/04/09 17:01:25 subash Operation :USE use courses, Status :Valid query
+2022/04/09 17:02:04 subash Operation :INSERT INTO insert into g (g1,g2,g3) values (1,2,3), Status :Valid query
+2022/04/09 18:48:14 subash Operation :USE use courses, Status :Valid query
+2022/04/09 18:48:45 subash Operation :SELECT : select * from g, Status :Valid query
+2022/04/09 18:54:07 subash Operation :USE use school, Status :Valid query
+2022/04/09 18:59:05 subash Operation :USE use school, Status :Valid query
+2022/04/09 19:01:12 subash Operation :USE use school, Status :Valid query
+2022/04/09 19:03:40 subash Operation :USE use school, Status :Valid query
+2022/04/09 19:09:38 subash Operation :USE use schema school, Status :Valid query
+2022/04/09 19:09:38 subash Operation :DELETE : delete from campus where id = v1, Status :Failed Query
+2022/04/09 19:11:34 subash Operation :USE use schema school, Status :Valid query
+2022/04/09 19:11:34 subash Operation :DELETE : delete from campus where id = v1, Status :Failed Query
+2022/04/09 19:19:51 subash Operation :USE use schema school, Status :Valid query
+2022/04/09 19:19:51 subash Operation :DELETE : delete from campus where id = v1, Status :Failed Query
+2022/04/09 19:53:30 subash Operation :USE use school, Status :Valid query
+2022/04/09 19:53:30 subash Operation :DELETE : delete from school where id = v1, Status :Failed Query
+2022/04/09 20:03:56 subash Operation :USE use courses, Status :Valid query
+2022/04/09 20:08:28 subash Operation :USE use courses, Status :Valid query
+2022/04/09 20:10:50 subash Operation :USE use courses, Status :Valid query
+2022/04/09 20:41:52 subash Operation :CREATE SCHEMA : create schema finaltesting, Status :Valid query
+2022/04/09 20:42:55 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 20:42:55 subash Operation :CREATE TABLE create table ft (ft1,ft2,ft3), Status :Valid query
+2022/04/09 20:48:01 subash Operation :USE use finaltesting , Status :Valid query
+2022/04/09 20:48:37 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 20:48:37 subash Operation :CREATE TABLE create table ft (ft1,ft2,ft3), Status :Valid query
+2022/04/09 20:51:56 subash Operation :USE use finaltesting', Status :Failed Query
+2022/04/09 20:52:02 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 20:52:02 subash Operation :CREATE TABLE create table ft (ft1,ft2,ft3), Status :Valid query
+2022/04/09 20:55:49 subash Operation :INSERT INTO : insert into table ft (ft1,ft2,ft3) values (12,34,45), Status :Failed Query
+2022/04/09 21:00:08 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 21:00:08 subash Operation :CREATE TABLE create table ft (ft1,ft2,ft3), Status :Valid query
+2022/04/09 21:06:37 subash Operation :INSERT INTO : insert into ft (ft1,ft2,ft3) values (12,23,345), Status :Valid query
+2022/04/09 21:12:09 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 21:12:09 subash Operation :CREATE TABLE create table ft (ft1,ft2,ft3), Status :Valid query
+2022/04/09 21:15:20 subash Operation :INSERT INTO : insert into ft (ft1,ft2,ft3) values (1,2,3), Status :Valid query
+2022/04/09 21:17:25 subash Operation :INSERT INTO : insert into ft (ft1,ft2,ft3) values (a,b,c), Status :Valid query
+2022/04/09 21:21:43 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 21:24:48 subash Operation :INSERT INTO : insert into ft (ft1,ft2,ft3) values (1,2,3), Status :Valid query
+2022/04/09 21:31:18 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 21:31:44 subash Operation :INSERT INTO : insert into ft (ft1,ft2,ft3) values (23,34,45), Status :Valid query
+2022/04/09 21:32:31 subash Operation :INSERT INTO : insert into ft (ft1,ft2,ft3) values (op,io,ui), Status :Valid query
+2022/04/09 21:34:08 subash Operation :UPDATE : update ft set ft1 = 9080 where ft1 = op, Status :Valid query
+2022/04/09 21:35:27 subash Operation :DELETE : delete from ft where ft1 = 23, Status :Valid query
+2022/04/09 21:35:56 subash Operation :SELECT : select * from ft, Status :Valid query
+2022/04/09 21:36:40 subash Operation : select ft1 from ft where ft2 = 34, Status :Failed Query
+2022/04/09 21:37:41 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 21:37:56 subash Operation :SELECT : select ft1 from ft where ft2 = 34, Status :Valid query
+2022/04/09 21:40:41 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 21:42:18 subash Operation :INSERT INTO : insert into ft (ft1,ft2,ft3) values (100,909,0989), Status :Valid query
+2022/04/09 21:44:08 subash Operation :UPDATE : update ft set ft2 = 90 where ft1 = 34, Status :Failed Query
+2022/04/09 21:49:04 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 21:49:38 subash Operation :INSERT INTO : insert into ft (ft1,ft2,ft3) values (120912,192819,192719), Status :Valid query
+2022/04/09 21:50:17 subash Operation :UPDATE : update ft set ft1 = 10 where ft3 = 192719, Status :Valid query
+2022/04/09 21:55:57 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 21:56:50 subash Operation :UPDATE : update ft set ft3 = 999 where ft1 = 120912, Status :Valid query
+2022/04/09 22:00:14 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 22:01:08 subash Operation :UPDATE : update ft set ft1 = 0909 where ft3 = 192819, Status :Failed Query
+2022/04/09 22:06:40 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 22:07:38 subash Operation :UPDATE : update ft set ft1 = ui where ft3 = 192819, Status :Failed Query
+2022/04/09 22:09:08 subash Operation :UPDATE : update ft set ft3 = ii where ft2 = io, Status :Valid query
+2022/04/09 22:10:01 subash Operation :UPDATE : update ft set ft2 = 00 where ft1 = 999, Status :Valid query
+2022/04/09 22:10:50 subash Operation :USE use finaltesting, Status :Valid query
+2022/04/09 22:11:33 subash Operation :UPDATE : update ft set ft1 = pp where ft2 = 77, Status :Failed Query
+2022/04/09 22:12:21 subash Operation :UPDATE : update ft set ft1 = 88 where ft2 = 34, Status :Valid query
+2022/04/10 14:02:46 jenishp Operation : delete from  where j1 = 2, Status :Failed Query
+2022/04/10 14:04:02 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 14:04:10 jenishp Operation :DELETE : delete from j where  j1 = 2, Status :Valid query
+2022/04/10 14:05:19 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 14:08:10 jenishp Operation :DELETE : delete from j where  j1 = 3, Status :Valid query
+2022/04/10 14:08:53 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 14:09:51 jenishp Operation :DELETE : delete from j where j1 = 3, Status :Valid query
+2022/04/10 14:10:23 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 14:11:40 jenishp Operation :DELETE : delete from j where j1 = 6, Status :Valid query
+2022/04/10 14:31:13 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 14:31:13 jenishp Operation :CREATE TABLE create table testanalytics (a1,2,a3), Status :Valid query
+2022/04/10 15:41:49 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 15:41:49 jenishp Operation :CREATE TABLE create table an (a1,a2,a3), Status :Valid query
+2022/04/10 15:43:35 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 15:43:35 jenishp Operation :CREATE TABLE create table tt4 (a1,a2,a3), Status :Valid query
+2022/04/10 15:45:32 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 15:45:32 jenishp Operation :CREATE TABLE create table tablef (f1,f2,f3), Status :Valid query
+2022/04/10 15:55:43 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 15:55:43 jenishp Operation :CREATE TABLE create table table9 (1,2,3), Status :Valid query
+2022/04/10 15:59:16 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 15:59:16 jenishp Operation :CREATE TABLE create table table00 (1,2,3), Status :Valid query
+2022/04/10 16:01:46 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 16:18:54 jenishp Operation :USE use coures, Status :Failed Query
+2022/04/10 16:18:58 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 16:18:58 jenishp Operation :CREATE TABLE create table post (1,2,3), Status :Valid query
+2022/04/10 16:22:33 jenishp Operation :USE use courses, Status :Valid query
+2022/04/10 16:22:33 jenishp Operation :CREATE TABLE create table hi (1,2,3), Status :Valid query
+2022/04/10 17:22:52 subash Operation :USE use courses, Status :Valid query
+2022/04/10 17:22:52 subash Operation :CREATE TABLE create table newcourses (id,time,teacher), Status :Valid query
+2022/04/10 17:48:04 subash Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 17:54:48 subash Operation = DELETE : User Query = delete from j where j3 = 6, Status =Valid query
+2022/04/10 18:01:41 subash Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 18:01:56 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:01:56 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:01:56 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:01:56 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:01:56 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:01:56 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:06:13 subash Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 18:07:52 subash Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 18:08:10 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:14:15 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:14:18 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:15:11 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:15:11 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:15:11 subash Operation = DELETE : User Query = delete from j where j1 = 3, Status =Valid query
+2022/04/10 18:19:14 subash Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 18:19:32 subash Operation = DELETE : User Query = delete from f where agee = 12, Status =Valid query
+2022/04/10 18:19:32 subash Operation = DELETE : User Query = delete from f where agee = 12, Status =Valid query
+2022/04/10 18:19:32 subash Operation = DELETE : User Query = delete from f where agee = 12, Status =Valid query
+2022/04/10 18:19:32 subash Operation = DELETE : User Query = delete from f where agee = 12, Status =Valid query
+2022/04/10 18:19:32 subash Operation = DELETE : User Query = delete from f where agee = 12, Status =Valid query
+2022/04/10 18:19:32 subash Operation = DELETE : User Query = delete from f where agee = 12, Status =Valid query
+2022/04/10 18:22:13 subash Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 18:22:36 subash Operation = DELETE : User Query = delete from j where agee = 12, Status =Valid query
+2022/04/10 18:27:10 subash Operation = DELETE : User Query = delete from j where agee = 12, Status =Valid query
+2022/04/10 18:27:24 subash Operation = DELETE : User Query = delete from j where agee = 12, Status =Valid query
+2022/04/10 18:27:31 subash Operation = DELETE : User Query = delete from j where agee = 12, Status =Valid query
+2022/04/10 18:27:40 subash Operation = DELETE : User Query = delete from j where agee = 12, Status =Valid query
+2022/04/10 18:27:54 subash Operation = DELETE : User Query = delete from j where agee = 12, Status =Valid query
+2022/04/10 20:19:54 prachi Operation = CREATE SCHEMA : User Query = create schema prachischema, Status =Valid query
+2022/04/10 20:19:54 prachi Operation =  User Query = create table testtable123, Status =Failed Query
+2022/04/10 20:21:27 prachi Operation = USE User Query = use prachischema, Status =Valid query
+2022/04/10 20:21:27 prachi Operation = CREATE TABLE User Query = create table prachitable (pt1,pt2,pt3), Status =Valid query
+2022/04/10 20:23:01 prachi Operation = INSERT INTO : User Query = insert into prachitable (pt1,pt2,pt3) values (1,2,3), Status =Valid query
+2022/04/10 20:23:57 prachi Operation = SELECT : User Query = select * from prachitable, Status =Failed Query
+2022/04/10 20:25:05 prachi Operation = SELECT : User Query = select * from prachitable, Status =Failed Query
+2022/04/10 20:25:41 prachi Operation = SELECT : User Query = select pt1 from prachitable where pt2 = 2, Status =Failed Query
+2022/04/10 20:26:53 prachi Operation = INSERT INTO : User Query = insert into prachitable (pt1,pt2,pt3) values (a,b,c), Status =Valid query
+2022/04/10 20:27:27 prachi Operation = UPDATE : User Query = update prachitable set pt1 = 1000 where pt1 = a, Status =Failed Query
+2022/04/10 20:28:08 prachi Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 20:28:46 prachi Operation = INSERT INTO : User Query = insert into g (g1,g2,g3) values (1,2,3), Status =Valid query
+2022/04/10 20:29:17 prachi Operation = INSERT INTO : User Query = insert into g (g1,g2,g3) values (11,22,33), Status =Valid query
+2022/04/10 20:30:33 prachi Operation = UPDATE : User Query = update g set g1 = 1000 where g1 = 1, Status =Valid query
+2022/04/10 20:31:09 prachi Operation = UPDATE : User Query = update g set g1 = 2000 where g1 = 11, Status =Valid query
+2022/04/10 20:34:08 prachi Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 20:42:50 prachi Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 20:42:50 prachi Operation = CREATE TABLE User Query = create table tt1 (p,q,r), Status =Valid query
+2022/04/10 20:43:30 prachi Operation = INSERT INTO : User Query = insert into tt1 (p,q,r) values (a,b,c), Status =Valid query
+2022/04/10 20:52:34 pheobe Operation = CREATE SCHEMA : User Query = create schema pheobeschema, Status =Valid query
+2022/04/10 20:54:34 pheobe Operation = USE User Query = use pheobeschema, Status =Valid query
+2022/04/10 20:55:13 pheobe Operation =  User Query = create table pheobetable (pht1,ph2,ph3), Status =Failed Query
+2022/04/10 20:55:47 pheobe Operation = USE User Query = use pheobeschema, Status =Valid query
+2022/04/10 20:55:47 pheobe Operation = CREATE TABLE User Query = create table pheobetable (ph1,ph2,ph3), Status =Valid query
+2022/04/10 20:56:38 pheobe Operation = INSERT INTO : User Query = insert into pheobetable (ph1,ph2,ph3) values (1,2,3), Status =Valid query
+2022/04/10 20:56:58 pheobe Operation = SELECT : User Query = select * from pheobetable, Status =Valid query
+2022/04/10 20:57:36 pheobe Operation = UPDATE : User Query = update pheobetable set ph1 = 1000 where ph1 = 1, Status =Valid query
+2022/04/10 20:58:23 pheobe Operation = SELECT : User Query = select ph3 from pheobetable where ph2 = 2, Status =Failed Query
+2022/04/10 20:59:44 pheobe Operation = DELETE : User Query = delete from pheobetable where ph1 = 1000, Status =Valid query
+2022/04/10 21:04:05 prachi Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 21:04:05 prachi Operation = CREATE TABLE User Query = create table we (1,2,3), Status =Valid query
+2022/04/10 21:06:47 prachi Operation = USE User Query = use courses, Status =Valid query
+2022/04/10 21:06:58 prachi Operation = SELECT : User Query = select * from g, Status =Valid query

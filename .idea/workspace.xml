@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6e57c9e-f79f-45b4-9146-92b02ddba139" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Analytics/ANALYTICS.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Analytics/ANALYTICS.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Analytics/Analytics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Analytics/Analytics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Analytics/UPDATEAN.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Analytics/UPDATEAN.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Directory/courses/g.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Directory/courses/g.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Logs/EventLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logs/EventLogs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Logs/GenralLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logs/GenralLogs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Logs/LogWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logs/LogWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Logs/QueryLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logs/QueryLogs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/metadata/Metadata.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/metadata/Metadata.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/DeleteRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/DeleteRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/InsertIntoTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/InsertIntoTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/SelectFromTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/SelectFromTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/UpdateColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/UpdateColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/erd/Erd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/erd/Erd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/erdDiagram/ERD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/erdDiagram/ERD.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/export/SQLdump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/export/SQLdump.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="27cv7mZV8jBa3AAyoRtrlPLyUHB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="dpg2-project-csci5408-w2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6e57c9e-f79f-45b4-9146-92b02ddba139" name="Changes" comment="" />
+      <created>1649632023951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649632023951</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

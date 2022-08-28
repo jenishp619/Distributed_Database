@@ -1,0 +1,8 @@
+Table Name :g
+Column Name:g1,g2,g3
+Table Name :j
+Column Name:name,agee,time
+Table Name :o
+Column Name:o1,o2,o3
+Table Name :y
+Column Name:y1,y2,y3,y4
